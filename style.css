@@ -20,7 +20,7 @@
     /* background-size: cover;  */
   
     /* Tudo junto "Short Hand" OU "atalho" */
-    background: url(photos/Background.png) no-repeat top center/cover;
+    background: url(photos/6492483.jpg) no-repeat top center/cover;
   
     /* Altura da viweport */
     height: 100vh;
@@ -106,7 +106,7 @@
     padding: 16px 20px;
   
     /* Cor do fundo */
-    background: rgba(76, 43, 138, 0.185);
+    background: rgb(196, 37, 37);
   
     /* Borda da caixa do conteudo */
     
@@ -132,8 +132,9 @@
   
   /* Estilização das listas */
   ul li a:hover {
-    border: 2px solid rgba(76, 43, 138, 0.267);
-    background: rgba(96, 59, 165, 0.493);
+    border: 2px solid rgba(255, 255, 255, 0.952);
+    background: rgba(255, 254, 255, 0.692);
+    color: rgb(196, 37, 37);
   }
   
   /* Icone das redes sociais */
@@ -157,7 +158,7 @@
   
     transition: background 0.3s;
     border-radius: 50%;
-    background: rgba(124, 121, 119, 0.281);
+    background: rgb(196, 37, 37);
      backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     
@@ -166,9 +167,9 @@
   
   /* Estilização dos icones de redes sociais */
   #social-links a:hover{
-    background: rgba(96, 59, 165, 0.493);
+    background: rgba(249, 249, 250, 0.493);
     border-radius: 50%;
-    border: 1px solid rgba(96, 59, 165, 0.493);
+    border: 1px solid rgba(96, 59, 165, 0);
   }
   
   /* Rodape da pagina */
