@@ -10,9 +10,6 @@ body, h1 {
 }
 
 /* Estilos gerais */
-body {
-    background-color: #f0f0f0;
-}
 
 header {
     background-color: rgba(76, 43, 138, 0.082); /* Cor de fundo verde */
