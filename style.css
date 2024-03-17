@@ -50,7 +50,6 @@
   /* Pai => Pode definir a tag filho senod unline.*/
   #profile {
     text-align: center; /*left or right. */
-    padding: 24px;
   }
   
   /* Imagem */
@@ -59,17 +58,18 @@
     /* display: block; */
   
     /* Largura da caixa img */
-    width: 120px;
-  
+    width: 250px;
     /* Alinhar ao centro, caso não pegue, ultilize o "display: block" para forçar o alinhamento. */
     margin: auto;
+
+  
   }
   
   /* Paragrafos */
   #profile p {
     font-weight: 500;
     line-height: 24px;
-    margin-top: 8px;
+    margin-top: px;
   }
   
   
