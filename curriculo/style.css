@@ -79,7 +79,7 @@ body{
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 10px;
-    margin-top: 35px;
+    margin-top: px;
 }
 
 .contactInfo ul{
@@ -100,6 +100,7 @@ body{
     width: 30px;
     font-size: 18px;
     color: rgb(89, 69, 201);
+    
 }
 
 .contactInfo ul li .text{
@@ -138,25 +139,115 @@ body{
 }
  
 
-.contactInfocurso .porcent{
+.contactInfocurso .porcenthtml{
     position: relative;
     width: 100%;
     height: 14px;
-    background: rgba(37, 39, 168, 0.39);
+    background: rgba(219, 108, 18, 0.356);
     display: block;
     margin-bottom: 5px;
 }
-.contactInfocurso .porcent div{
+.contactInfocurso .porcenthtml div{
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
-    background:rgb(43, 44, 128);
-    background:rgb(38, 42, 221);
+    background:rgb(219, 108, 18);
 }
 
+.contactInfocurso .porcenthtml  h4{
+    display: flex; 
+    justify-content: space-around;
+    font-size: 12px;
+    
+}
 
-.contactInfocurso .porcent  h4{
+.contactInfocurso .porcentcss{
+    position: relative;
+    width: 100%;
+    height: 14px;
+    background: rgba(2, 141, 255, 0.253);
+    display: block;
+    margin-bottom: 5px;
+}
+.contactInfocurso .porcentcss div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgb(2, 141, 255);
+}
+
+.contactInfocurso .porcentcss  h4{
+    display: flex; 
+    justify-content: space-around;
+    font-size: 12px;
+    
+}
+
+.contactInfocurso .porcentjs{
+    position: relative;
+    width: 100%;
+    height: 14px;
+    background: rgba(251, 255, 2, 0.281);
+    display: block;
+    margin-bottom: 5px;
+}
+.contactInfocurso .porcentjs div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgb(251, 255, 2);
+}
+
+.contactInfocurso .porcentjs  h4{
+    display: flex; 
+    justify-content: space-around;
+    font-size: 12px;
+    
+}
+
+.contactInfocurso .porcentpy{
+    position: relative;
+    width: 100%;
+    height: 14px;
+    background: rgba(0, 116, 211, 0.26);
+    display: block;
+    margin-bottom: 5px;
+}
+.contactInfocurso .porcentpy div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgb(0, 116, 211);
+}
+
+.contactInfocurso .porcentpy  h4{
+    display: flex; 
+    justify-content: space-around;
+    font-size: 12px;
+    
+}
+
+.contactInfocurso .porcentphp{
+    position: relative;
+    width: 100%;
+    height: 14px;
+    background: rgba(161, 162, 221, 0.288);
+    display: block;
+    margin-bottom: 5px;
+}
+.contactInfocurso .porcentphp div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgb(161, 162, 221);
+}
+
+.contactInfocurso .porcentphp  h4{
     display: flex; 
     justify-content: space-around;
     font-size: 12px;
