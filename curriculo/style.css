@@ -38,8 +38,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 30px;
-    border-bottom: 1px solid rgba(199, 86, 12, 0.144);
+    
 }
 
 .profileText .imgbx{
@@ -55,8 +54,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-   
+    object-fit: cover;   
 }
 
 .profileText h2{
@@ -69,9 +67,6 @@ body{
     line-height: 1.4em;
 }
 
-.contactInfo{
-    margin-bottom: 30px;
-}
 
 .title{
     color: rgba(255, 255, 255, 0.884);
@@ -79,7 +74,27 @@ body{
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 10px;
-    margin-top: px;
+    margin-top: 15px;
+}
+
+.status {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(21, 255, 0);
+    padding: 10px;
+
+}
+
+.status img{
+    height: 30px;
+
+}
+
+.status H2{
+    font-size: 20PX;
 }
 
 .contactInfo ul{
@@ -265,15 +280,31 @@ body{
 
 }
 
+.about a{
+    color: black;
+}
 .about:last-child{
     margin-bottom: 0;
 
 }
 
 .title2{
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.title3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: black;
+    
+
 }
 
 p{
