@@ -1,16 +1,15 @@
 body {
-    background: url(img/rsz_adobestock_225524669.jpg) no-repeat top center/cover;
+    background: url(img/Background.png) no-repeat top center/cover;
     background-attachment: fixed;
     background-position: center;
-    min-height: 100vh;
-    color: #13a099c0;
-    font-family:'Monomaniac One', sans-serif;
     margin: 0;
     padding: 0;
+    color: rgba(243, 238, 238, 0.192);
+    font-family: 'Tektur', cursive;    
 }
 
 header {
-    background-color: #171b1b3b;
+    background-color: #171b1b11;
     text-align: center;
     padding: 20px;
 }
@@ -26,7 +25,7 @@ main {
 }
 
 .post {
-    background-color: #2b363691;
+    background-color: #3a0d5f5b;
     padding: 20px;
     margin-bottom: 20px;
 }

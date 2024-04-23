@@ -20,7 +20,7 @@ body{
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: 900px;
+    min-height: 800px;
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -151,7 +151,6 @@ body{
     list-style: none;
 
 }
- 
 
 .contactInfocurso .porcenthtml{
     position: relative;
@@ -302,13 +301,43 @@ body{
     letter-spacing: 1px;
     margin-bottom: 10px;
     color: black;
-    
-
 }
 
 p{
     color: rgb(66, 60, 60);
     font-size: 18px;
+}
+.objetivo .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.objetivo .box h4{
+    text-transform: uppercase;
+    color: rgb(83, 80, 80);
+    font-size: 12px; 
+}
+
+.objetivo .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgba(43, 131, 109, 0.521);
+}
+
+.objetivo .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(43, 131, 109);
+    ;
+    ;
 }
 
 .competencia .box{
@@ -324,8 +353,7 @@ p{
 .competencia .box h4{
     text-transform: uppercase;
     color: rgb(83, 80, 80);
-   font-size: 12px;
-    
+    font-size: 12px; 
 }
 
 .competencia .box .percent{
