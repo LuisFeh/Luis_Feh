@@ -128,6 +128,8 @@ body{
 .contactInfoEdu li{
     margin-bottom: 15px ;
     list-style: none;
+    font-size: 15px;
+    
 }
 
 .contactInfoEdu h5{
@@ -145,18 +147,20 @@ body{
     font-weight: 300;
     
 }
+.contactInfocurso{
+    margin-top: 40px;
+}
 
 .contactInfocurso li{
     color: white;
     list-style: none;
-
 }
 
 .contactInfocurso .porcenthtml{
     position: relative;
     width: 100%;
     height: 14px;
-    background: rgba(219, 108, 18, 0.356);
+    background: rgba(95, 18, 219, 0.356);
     display: block;
     margin-bottom: 5px;
 }
@@ -165,7 +169,7 @@ body{
     top: 0;
     left: 0;
     height: 100%;
-    background:rgb(219, 108, 18);
+    background:rgb(95, 18, 219);
 }
 
 .contactInfocurso .porcenthtml  h4{
@@ -179,7 +183,7 @@ body{
     position: relative;
     width: 100%;
     height: 14px;
-    background: rgba(2, 141, 255, 0.253);
+    background: rgba(95, 18, 219, 0.356);
     display: block;
     margin-bottom: 5px;
 }
@@ -188,7 +192,7 @@ body{
     top: 0;
     left: 0;
     height: 100%;
-    background:rgb(2, 141, 255);
+    background:rgb(95, 18, 219);
 }
 
 .contactInfocurso .porcentcss  h4{
@@ -202,7 +206,7 @@ body{
     position: relative;
     width: 100%;
     height: 14px;
-    background: rgba(251, 255, 2, 0.281);
+    background: rgba(95, 18, 219, 0.356);
     display: block;
     margin-bottom: 5px;
 }
@@ -211,7 +215,7 @@ body{
     top: 0;
     left: 0;
     height: 100%;
-    background:rgb(251, 255, 2);
+    background:rgb(95, 18, 219);
 }
 
 .contactInfocurso .porcentjs  h4{
@@ -225,7 +229,7 @@ body{
     position: relative;
     width: 100%;
     height: 14px;
-    background: rgba(0, 116, 211, 0.26);
+    background: rgba(95, 18, 219, 0.356);
     display: block;
     margin-bottom: 5px;
 }
@@ -234,7 +238,7 @@ body{
     top: 0;
     left: 0;
     height: 100%;
-    background:rgb(0, 116, 211);
+    background:rgb(95, 18, 219);
 }
 
 .contactInfocurso .porcentpy  h4{
@@ -244,23 +248,23 @@ body{
     
 }
 
-.contactInfocurso .porcentphp{
+.contactInfocurso .porcentr{
     position: relative;
     width: 100%;
     height: 14px;
-    background: rgba(161, 162, 221, 0.288);
+    background: rgba(95, 18, 219, 0.356);
     display: block;
     margin-bottom: 5px;
 }
-.contactInfocurso .porcentphp div{
+.contactInfocurso .porcentr div{
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
-    background:rgb(161, 162, 221);
+    background:rgb(95, 18, 219);
 }
 
-.contactInfocurso .porcentphp  h4{
+.contactInfocurso .porcentr  h4{
     display: flex; 
     justify-content: space-around;
     font-size: 12px;
@@ -301,11 +305,12 @@ body{
     letter-spacing: 1px;
     margin-bottom: 10px;
     color: black;
+    font-size: 20px;
 }
 
 p{
     color: rgb(66, 60, 60);
-    font-size: 18px;
+    font-size: 17px;
 }
 .objetivo .box{
     position: relative;

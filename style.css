@@ -194,3 +194,9 @@
       --bg-url: url(./photos\1111853.jpg)
     }
   }
+
+  .text p{
+    text-align: center;
+    color: rgb(149, 157, 163);
+    font-size: 15px;
+  }
