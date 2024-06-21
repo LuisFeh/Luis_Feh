@@ -189,14 +189,19 @@
   
   }
   
-  @media (min-width: 700px) {
-    :root{
-      --bg-url: url(./photos\1111853.jpg)
-    }
+  @media (min-width: 450px) {
   }
 
   .text p{
     text-align: center;
     color: rgb(149, 157, 163);
     font-size: 15px;
+  }
+
+  .photo{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 10px;
   }
