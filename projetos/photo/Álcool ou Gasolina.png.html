@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://127.0.0.1:5501/projetos/projeto-viking/index.html -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Álcool ou Gasolina_files/style.css">
+    <link rel="shortcut icon" href="http://127.0.0.1:5501/projetos/projeto-viking/assents/icons8-gas-station-32.png" type="image/x-icon">
+    <title>Álcool ou Gasolina</title>
+</head>
+<body>  
+    <main class="container">
+        <img class="logo" src="./Álcool ou Gasolina_files/logo.png" alt="Bobina de gasolina, cor vermelha.">
+        <h1 class="title">Qual melhor opção?</h1>
+        
+        <form onsubmit="calcular(event)" class="formulario">
+            <label for="alcool">Álcool (preço por litro)</label>
+            <input class="input" type="number" placeholder="4.90" min="1" step="0.01" required="" id="alcool">
+
+            <label for="gasolina">Gasolina (preço por litro)             
+            </label>
+            <input class="input" type="number" placeholder="6.50" min="1" step="0.01" required="" id="gasolina">
+
+            <input class="button" type="submit" value="calcular">
+        </form>
+
+        <section id="content-result" class="result hide">
+            <span id="text-result">Compensa usar Álcool</span>
+
+            <span id="alcool-result">Álcool R$ 3.90</span>
+            <span id="gasolina-result">Gasolina R$ 6.80</span>
+        </section>
+
+    </main>
+
+    <div class="info">
+        <span class="tooltip">Veja como é feito o calculo</span>
+        <a href="http://127.0.0.1:5501/projetos/projeto-viking/calculo.html">
+            <img class="info-img" src="./Álcool ou Gasolina_files/info.png" alt="">
+        </a>
+    </div>
+    <script src="./Álcool ou Gasolina_files/index.js.baixados"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

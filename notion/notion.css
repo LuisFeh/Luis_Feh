@@ -6,6 +6,22 @@
     box-sizing: border-box;
   }
   
+  header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(53, 51, 59, 0.13); /* Cor de fundo verde */
+    color: #fff;
+    padding: 20px;
+    height: 25px;
+
+}
+
+header img{
+    display: flex;
+    justify-content: left;
+    height: 30px;
+
+}
   /* Conteudo do BODY */
   body {
     /* background-image: url(assets/bg-mobile.jpg);  */
@@ -41,7 +57,7 @@
     max-width: 500px;
   
     /* Alinhar ao centro */
-    margin: 56px auto 0px;
+    margin: 20px auto 0px;
   
     padding: 0 24px;
   }
@@ -60,7 +76,7 @@
     /* Largura da caixa img */
     width: 200px;
     /* Alinhar ao centro, caso não pegue, ultilize o "display: block" para forçar o alinhamento. */
-    margin: auto;
+    margin: 10px;
 
   
   }

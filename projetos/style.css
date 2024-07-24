@@ -15,10 +15,20 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
     background-color: rgba(53, 51, 59, 0.13); /* Cor de fundo verde */
     color: #fff;
     padding: 20px;
-    text-align: center;
+    height: 5px;
+
+}
+
+header img{
+    display: flex;
+    justify-content: left;
+    height: 30px;
+
 }
 
 nav ul {
@@ -46,16 +56,18 @@ align-items: center;
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
+    flex-direction: row;
+    margin: 20px;
 }
 
 .news {
     display: flex;
     flex-direction: column;
-    background-image: url(photo/Background.png);
+    background-color: rgba(67, 21, 121, 0.151);
     margin: 10px;
     padding: 20px;
     border-radius: 5px;
-    height: 350px;
+    height: 450px;
     width: 300px;
     text-decoration: none;
     transition: 0.4s;
@@ -68,10 +80,6 @@ align-items: center;
     margin-bottom: 15px;
 }
 
-.logo img{
-    width: 50px;
-    height: 50px;
-}
 .news h1 {
     display: flex;
     justify-content: center;
@@ -86,8 +94,9 @@ align-items: center;
     align-items: center;
     flex-direction: column;
     border: 1px solid rgba(255, 255, 255, 0.24);
-    margin-top: 20px;
+    margin-top: 10px;
     height: 200px;
+
 }
 .title p{
     color: white;
@@ -115,7 +124,11 @@ align-items: center;
 }
 
 .news:hover{
-    transform: scale(1.1);
+    transform: scale(1.04);
     border: 1px solid rgba(255, 255, 255, 0.527);
     
+}
+
+.logo{
+    margin-top: 10px;
 }
