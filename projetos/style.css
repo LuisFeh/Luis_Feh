@@ -6,14 +6,10 @@ body {
     margin: 0;
     padding: 0;
     color: rgba(243, 238, 238, 0.747);
-    font-family: 'Tektur', cursive;    
+    font-family: 'Tektur', cursive;  
 }
 
 /* Estilos gerais */
-body {
-    background-color: #f0f0f0;
-}
-
 header {
     display: flex;
     align-items: center;
@@ -57,7 +53,7 @@ align-items: center;
     flex-wrap: wrap;
     padding: 20px;
     flex-direction: row;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .news {
@@ -71,6 +67,18 @@ align-items: center;
     width: 300px;
     text-decoration: none;
     transition: 0.4s;
+}
+
+@media (max-width: 800px) {
+    .main-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 5px;
+        flex-direction: column;
+        margin-top: 20px;
+    }
 }
 
 .logo {
