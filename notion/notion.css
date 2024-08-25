@@ -5,213 +5,176 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
-  header {
-    display: flex;
-    align-items: center;
-    background-color: rgba(53, 51, 59, 0.13); /* Cor de fundo verde */
-    color: #fff;
-    padding: 20px;
-    height: 25px;
 
-}
-
-header img{
-    display: flex;
-    justify-content: left;
-    height: 30px;
-
-}
-  /* Conteudo do BODY */
   body {
-    /* background-image: url(assets/bg-mobile.jpg);  */
-  
-    /* Não repeitr imagem */
-    /* background-repeat: no-repeat; */
-  
-    /* Centralizar no meio. Altura de cima para baixo */
-    /* background-position: top center; */
-  
-    /* Cobrir toda a pagina da web */
-    /* background-size: cover;  */
-  
-    /* Tudo junto "Short Hand" OU "atalho" */
-    background: url(photos/Background.png) no-repeat top center/cover;
-  
-    /* Altura da viweport */
+    background: url(photos/Background.svg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
+
   }
-  
+
   /* Todo conteudo do BODY */
   body * {
     font-family: "Inter", sans-serif;
     color: white;
   }
-  
-  /* Container da imagem */
-  #container {
-    /* Largura da caixa */
-    width: 100%;
-  
-    /*  largura maxima */
-    max-width: 500px;
-  
-    /* Alinhar ao centro */
-    margin: 20px auto 0px;
-  
-    padding: 0 24px;
+
+  header{
+    height: 40px;
   }
-  
-  
-  /* Pai => Pode definir a tag filho senod unline.*/
-  #profile {
-    text-align: center; /*left or right. */
+
+
+  .logo{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    margin-top: 30px;
+    
   }
-  
-  /* Imagem */
-  #profile img {
-    /* Forçar alinhamento */
-    /* display: block; */
-  
-    /* Largura da caixa img */
-    width: 200px;
-    /* Alinhar ao centro, caso não pegue, ultilize o "display: block" para forçar o alinhamento. */
+
+  .lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    gap: 5px;
+  }
+
+  @media (max-width: 800px) {
+
+
+    }
+
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+  }
+
+  a{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(73, 55, 130, 0.306);
+    height: 300px;
+    min-width: 250px;
+    max-width: 250px;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    
+  }
+
+  .desk::-webkit-scrollbar{
+    background-color: rgba(127, 255, 212, 0);
+    height: 10px;
+
+  }
+
+  .desk::-webkit-scrollbar-thumb{
+    background-color: rgba(42, 29, 85, 0.756);
+    border-radius: 20px;
+  }
+
+  .icons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    margin: 5px 10px 0;
+  }
+
+  .icons img{
+    display: flex;
+    width: 20px;
+  }
+
+  .info{
+    display: flexc;
+  }
+
+  h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration:underline;
+    font-size: 14PX;
+  }
+
+  .p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 120px;
+    margin: 5px;
+    word-break: break-all;
+  }
+
+  p{
+    margin: 5px;
+    font-size: 12px;
+
+  }
+
+  .desk{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    height: 350px;
+    margin-bottom: 30px;
+
+
+  }
+
+  .thumb{
+    display: flex;
+    justify-content: center;
     margin: 10px;
 
-  
-  }
-  
-  /* Paragrafos */
-  #profile p {
-    font-weight: 500;
-    line-height: 24px;
-    margin-top: px;
-  }
-  
-  
-  /* links */
-  ul {
-    /* Sem estilo de lista */
-    list-style: none;
-  
-    /* Display flexivel */
-    display: flex;
-  
-    /* Conteudo em coluna */
-    flex-direction: column;
-  
-    /* Distancia entre os conteudos */
-    gap: 16px;
-  
-    /* Distancia de cima para baixo */
-    padding: 10px 0;
-  }
-  
-  /* Listas */
-  ul li a {
-
-
-    display: flex;
-  
-    /* Centralizar o conteudo */
-    justify-content: center;
-  
-    /* Alinhar o conteudo no eixo X */
-    align-items: center;
-  
-    padding: 16px 20px;
-  
-    /* Cor do fundo */
-    background: rgba(40, 37, 59, 0.514);
-  
-    /* Borda da caixa do conteudo */
-    
-  
-    /* Arredondamento da borda do conteudo */
-    border-radius: 8px;
-  
-    /* Borrar o fundo */
-    backdrop-filter: blur(4px);
-    /* Borrar o fundo, caso o pirmeiro não pegue */
-    -webkit-backdrop-filter: blur(4px);
-  
-    /* Sem decoração no texto */
-    text-decoration: none;
-  
-    /* largura do texto */
-    font-weight: 500;
-  
-    /* Transição de uma situaçção para outra */
-    transition: background 0.5s;
-  
-  }
-  
-  /* Estilização das listas */
-  .ok :hover {
-    border: 2px solid rgba(39, 59, 37, 0.514);
-    background: rgba(47, 80, 44, 0.76);
-    color: rgb(229, 229, 230);
   }
 
-  .no :hover {
-    border: 2px solid rgba(112, 29, 29, 0.514);
-    background: rgba(112, 29, 29, 0.514);
-    color: rgb(229, 229, 230);
+.thumb img{
+  display: flex;
+  max-width: 230px;
+}
+
+.plus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.plus img{
+  display: flex;
+  width: 40px;
+}
+
+h1{
+  display: flex;
+  margin: 10px 20px 5px;
+}
+
+@media (max-width: 800px) {
+  body{
+    height: 100vh;
   }
-  
-  /* Icone das redes sociais */
-  #social-links{
-    display: flex;
-    gap: 5px;
-  
-    padding: 24px 0;
-  
-    font-size: 24px;
-    justify-content: center;
+
+  .desk::-webkit-scrollbar{
+    height: 0;
   }
-  
-  /* Linkls das redes sociais */
-  #social-links a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px;
-  
-    transition: background 0.3s;
-    border-radius: 50%;
-    background: rgba(53, 51, 59, 0.322);
-     backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    
-  
+
+  .lang img{
+    width: 40px;
   }
-  
-  /* Estilização dos icones de redes sociais */
-  #social-links a:hover{
-    background: rgb(49, 45, 73);
-    border-radius: 50%;
-    border: 1px solid rgba(116, 106, 136, 0.493);
+
+  h1{
+    font-size: 20px;
   }
-  
-  /* Rodape da pagina */
-  footer{
-    padding: 15px;
-    text-align: center;
-    font-size: 14px;
-  }
-  
-  footer a{
-    color: rgba(255, 255, 255, 0.466);
-  }
-  
-  footer a:hover{
-    color: rgba(255, 255, 255, 0.63);
-    transition: 0.3s;
-  
-  }
-  
-  @media (min-width: 700px) {
-    :root{
-      --bg-url: url(./photos\1111853.jpg)
-    }
-  }
+
+}
