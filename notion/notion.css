@@ -103,22 +103,24 @@
     align-items: center;
     text-align: center;
     text-decoration:underline;
-    font-size: 14PX;
+    font-size: 12PX;
   }
 
   .p{
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 120px;
+    max-height: 120px;
+    min-height: 100px;
     margin: 5px;
     word-break: break-all;
   }
 
   p{
     margin: 5px;
-    font-size: 12px;
-
+    font-size: 10px;
+    max-height: 120px;
+    min-height: 100px;
   }
 
   .desk{
