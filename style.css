@@ -108,7 +108,7 @@
     /* Cor do fundo */
     background: rgba(40, 37, 59, 0.514);
   
-    /* Borda da caixa do conteudo */
+    
     
   
     /* Arredondamento da borda do conteudo */
@@ -132,8 +132,9 @@
   
   /* Estilização das listas */
   ul li a:hover {
-    border: 2px solid rgba(40, 37, 59, 0.514);
-    background: rgb(49, 45, 73);
+    
+    border: 1px solid rgba(255, 255, 255, 0.338);
+    background: rgba(255, 255, 255, 0.338);
     color: rgb(229, 229, 230);
   }
   
