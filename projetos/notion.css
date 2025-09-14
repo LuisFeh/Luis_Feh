@@ -10,8 +10,7 @@
     background: url(photos/Background.svg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 100vh;
+    height: 100%;
 
   }
 
@@ -104,6 +103,7 @@
     text-align: center;
     text-decoration:underline;
     font-size: 12PX;
+    
   }
 
   .p{
@@ -113,7 +113,7 @@
     max-height: 120px;
     min-height: 100px;
     margin: 5px;
-    word-break: break-all;
+    word-break: ;
   }
 
   p{
@@ -163,10 +163,6 @@ h1{
 }
 
 @media (max-width: 800px) {
-  body{
-    height: 100vh;
-  }
-
   .desk::-webkit-scrollbar{
     height: 0;
   }
